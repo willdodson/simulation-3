@@ -1,0 +1,9 @@
+SELECT * FROM users_sim3 WHERE firstName = $1 LIMIT 24;
+SELECT * FROM users_sim3 WHERE lastName = $2 LIMIT 24;
+SELECT * FROM users_sim3 WHERE gender = $3 LIMIT 24;
+SELECT * FROM users_sim3 WHERE hairColor = $4 LIMIT 24;
+SELECT * FROM users_sim3 WHERE eyeColor = $5 LIMIT 24;
+SELECT * FROM users_sim3 WHERE hobby = $6 LIMIT 24;
+SELECT * FROM users_sim3 WHERE birthDay = $7 LIMIT 24;
+SELECT * FROM users_sim3 WHERE birthMonth = $8 LIMIT 24;
+SELECT * FROM users_sim3 WHERE birthYear = $9 LIMIT 24;
